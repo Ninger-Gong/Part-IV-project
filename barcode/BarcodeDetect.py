@@ -1,3 +1,7 @@
+import cv2
+import numpy as numpy
+import imutils
+
 def decode(image):
     # decodes all barcodes from an image
     decoded_objects = pyzbar.decode(image)
